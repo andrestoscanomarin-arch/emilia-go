@@ -4,6 +4,14 @@
 
 Prototipo para la presentación. A la izquierda hay un celular con un chat estilo WhatsApp donde **Emilia** le pregunta a cada persona cómo van sus objetivos. A la derecha está la plataforma **Delta Teams**, que se actualiza sola, en vivo, con cada respuesta. Cada vez que **todo** un equipo actualiza, su **Racha de equipo 🔥** sube.
 
+## 🌐 Link de la demo en la nube
+
+**https://andrestoscanomarin-arch.github.io/emilia-go/**
+
+Ábrelo en Chrome desde cualquier computador, sin instalar nada. Esta versión usa siempre los respaldos (el intérprete local y la voz del navegador), así que no necesita claves y no se cae. Lo que hagas se guarda en ese navegador; para empezar de cero usa ⚙️ → **Reiniciar demo**.
+
+Si cambias algo del código y quieres actualizar el link, abre la terminal en esta carpeta y escribe `npm.cmd run publicar`. En uno o dos minutos el link muestra la versión nueva.
+
 La empresa es ficticia: **Andina Distribuciones S.A.S.**, con 3 equipos (Ventas, Servicio al Cliente y Mercadeo), 5 personas por equipo y 2 OKRs por persona.
 
 ---
@@ -117,6 +125,8 @@ Cierra el panel ⚙️ antes de cada captura.
 ---
 
 ## Cómo está hecho (para curiosos)
+
+- En Delta, el menú **Andina Distribuciones** abre el organigrama: gerencia, los 3 equipos con su líder y racha, y cada persona con su estado de la semana. Si tocas a una persona, ves su perfil y Emilia pasa a conversar con ella.
 
 - **Next.js + TypeScript + Tailwind**. Íconos de `lucide-react`. Tipografías Poppins e Inter (de Google Fonts, instaladas dentro del proyecto para que funcionen sin internet).
 - `src/lib/datos.ts`: la empresa, los equipos, las personas y los OKRs de ejemplo.
